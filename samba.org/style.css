@@ -1,0 +1,8 @@
+/* This user style removes the "unmaintained version" watermark from samba man pages */
+/* i.e. https://www.samba.org/samba/docs/3.6/man-html/ */
+
+/* URLs matching the regexp = `https://www.samba.org/samba/docs/[^/]+/man-html/.*` */
+
+BODY {
+    background-image: url("");
+}
